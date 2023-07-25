@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Game</title>
+  <!-- Add your CSS stylesheets here -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simon Game</h1>
+    <div class="buttons">
+      <button class="green" onclick="pressButton('green')"></button>
+      <button class="red" onclick="pressButton('red')"></button>
+      <button class="yellow" onclick="pressButton('yellow')"></button>
+      <button class="blue" onclick="pressButton('blue')"></button>
+    </div>
+    <div class="controls">
+      <button onclick="startGame()">Start</button>
+      <button onclick="toggleStrictMode()">Strict Mode</button>
+      <button onclick="resetGame()">Reset</button>
+    </div>
+    <p id="message"></p>
+    <p id="level">Level: 1</p>
+  </div>
+
+  <!-- Add your JavaScript code here -->
+  <script src="script.js"></script>
+</body>
+</html>
