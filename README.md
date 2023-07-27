@@ -6,6 +6,6 @@ Simple version of TicTacToe game on the web using HTML, CSS and JavaScript.
 
 # Online
 
-You can use the link below to try the online game.
+You can use the link below to try the online version of the game.
 
 https://codepen.io/mohammadreza-yadollahy/full/OJaoWZV
